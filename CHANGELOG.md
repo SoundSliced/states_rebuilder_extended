@@ -1,6 +1,8 @@
-## 1.0.0 - 2025-11-20
+## 1.0.0-dev1 - 2025-11-20
 
-**First stable release!**
+**First pre-release!**
+
+*Note: This is a pre-release version because it depends on `states_rebuilder: ^7.0.0-dev1`.*
 
 ### Features
 - ✅ **Type-safe updates**: Safer `update<T?>` and `update<T>` methods with explicit generic enforcement
