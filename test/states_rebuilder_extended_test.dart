@@ -2,6 +2,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:states_rebuilder_extended/states_rebuilder_extended.dart';
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   group('StateRebuilderExtension', () {
     test('nullable update enforces explicit generic & works', () {
       final injected = MyNull.injectDisposable<int?>();
@@ -98,7 +100,7 @@ void main() {
       final emptyList = [a].where((e) => false).toList();
       expect(
         () => emptyList.notify(),
-        throwsStateError,
+        throwsA(isA<AssertionError>()),
       );
     });
   });
