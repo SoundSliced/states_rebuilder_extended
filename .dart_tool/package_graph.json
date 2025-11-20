@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "states_rebuilder_extended",
-      "version": "1.0.0",
+      "version": "1.0.0-dev1",
       "dependencies": [
         "flutter",
         "states_rebuilder"
