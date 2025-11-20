@@ -586,7 +586,7 @@ extension MultipleStateRebuilderExtension on List<Injected<dynamic>> {
 
 /// Quick injection helpers on any object value.
 extension InjectExtension<T extends Object> on T {
-  /// Injects this value as an Injected<T> with optional side effects.
+  /// Injects this value as an `Injected<T>` with optional side effects.
   Injected<T> inject<R extends T>({
     bool autoDispose = true,
     void Function()? initState,
@@ -606,7 +606,7 @@ extension InjectExtension<T extends Object> on T {
     );
   }
 
-  /// Injects this value as an auto-disposable Injected<T> with optional side effects.
+  /// Injects this value as an auto-disposable `Injected<T>` with optional side effects.
   Injected<T> injectDisposable({
     void Function()? initState,
     void Function(SnapState<T> state)? onSetState,
