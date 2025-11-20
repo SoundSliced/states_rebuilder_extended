@@ -1,5 +1,3 @@
-// ignore_for_file: public_member_api_docs
-
 import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
@@ -257,6 +255,7 @@ extension NonNullableStateRebuilderExtension<T extends Object> on Injected<T> {
 
 /// Boolean helpers for nullable boolean injected instances.
 extension BooleanStateRebuilderExtension on Injected<bool?> {
+  /// Toggles the boolean state, defaulting to false if null.
   void toggle({bool shouldNotify = true, String? tag}) {
     state = !(state ?? false);
     if (shouldNotify && WidgetsBinding.instance.isRootWidgetAttached) {
@@ -404,6 +403,7 @@ extension MultipleStateRebuilderExtension on List<Injected<dynamic>> {
     }
   }
 
+  /// Builds a widget that listens to all injected instances in this list.
   Widget builder(
     Widget Function() builder, {
     void Function()? initState,
@@ -586,6 +586,7 @@ extension MultipleStateRebuilderExtension on List<Injected<dynamic>> {
 
 /// Quick injection helpers on any object value.
 extension InjectExtension<T extends Object> on T {
+  /// Injects this value as an Injected<T> with optional side effects.
   Injected<T> inject<R extends T>({
     bool autoDispose = true,
     void Function()? initState,
@@ -605,6 +606,7 @@ extension InjectExtension<T extends Object> on T {
     );
   }
 
+  /// Injects this value as an auto-disposable Injected<T> with optional side effects.
   Injected<T> injectDisposable({
     void Function()? initState,
     void Function(SnapState<T> state)? onSetState,

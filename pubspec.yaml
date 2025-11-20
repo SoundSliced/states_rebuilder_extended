@@ -1,6 +1,6 @@
 name: states_rebuilder_extended
 description: "Extensions and helpers enhancing states_rebuilder (Injected) API: update/toggle/multi-builder utilities + MyNull injector."
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/SoundSliced/states_rebuilder_extended
 repository: https://github.com/SoundSliced/states_rebuilder_extended
 issue_tracker: https://github.com/SoundSliced/states_rebuilder_extended/issues

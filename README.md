@@ -1,6 +1,6 @@
 # states_rebuilder_extended
 
-Ergonomic extensions and helpers layered on top of the [`states_rebuilder`](https://pub.dev/packages/states_rebuilder) package.
+Package providing ergonomic extensions and helpers layered on top of the state management package [`states_rebuilder`](https://pub.dev/packages/states_rebuilder).
 
 ## Features
 - Safer `update<T?>` and `update<T>` methods enforcing explicit generics.
@@ -73,3 +73,7 @@ counter.safeRefresh(); // Will ignore if already disposed
 
 ## License
 MIT (or specify). Update as appropriate.
+
+## Repository
+
+https://github.com/SoundSliced/states_rebuilder_extended
