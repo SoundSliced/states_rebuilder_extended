@@ -3,7 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/states_rebuilder_extended.svg)](https://pub.dev/packages/states_rebuilder_extended)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Current pre-release version: **1.0.0-dev1** (matches `states_rebuilder: ^7.0.0-dev1`)
+> Current stable version: **1.0.0** (uses `states_rebuilder: ^6.4.0`)
 
 A collection of ergonomic extensions and helpers built on top of the [`states_rebuilder`](https://pub.dev/packages/states_rebuilder) package, providing type-safe state management utilities and enhanced developer experience.
 
@@ -23,8 +23,8 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  states_rebuilder_extended: ^1.0.0-dev1
-  states_rebuilder: ^7.0.0-dev1
+  states_rebuilder_extended: ^1.0.0
+  states_rebuilder: ^6.4.0
 ```
 
 Then run:
@@ -385,7 +385,7 @@ Mixin for StatefulWidget states to support hot reload on Flutter Web.
 
 ## 🧪 Testing
 
-The package includes comprehensive unit tests. Run them with:
+The package includes unit tests covering core behaviors. Run them with:
 
 ```bash
 flutter test
@@ -404,8 +404,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [pub.dev](https://pub.dev/packages/states_rebuilder_extended)
 - [GitHub Repository](https://github.com/SoundSliced/states_rebuilder_extended)
 - [Issue Tracker](https://github.com/SoundSliced/states_rebuilder_extended/issues)
-- [states_rebuilder](https://pub.dev/packages/states_rebuilder) - The underlying state management package
+- [states_rebuilder](https://pub.dev/packages/states_rebuilder) – underlying state management package
 
 ## 💡 Credits
 
 Built on top of the excellent [states_rebuilder](https://pub.dev/packages/states_rebuilder) package by [Mellati Fatah](https://github.com/GIfatahTH).
+
+---
+
+For change history see the [CHANGELOG](CHANGELOG.md).

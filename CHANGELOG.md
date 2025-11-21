@@ -1,8 +1,38 @@
+## 1.0.0 - 2025-11-21
+
+**Stable release**
+
+This version promotes the previously published pre-release (`1.0.0-dev1`) to a stable build. The dependency constraint has been aligned to the latest stable `states_rebuilder: ^6.4.0` so that you can use the package without relying on a dev build of the underlying library.
+
+### Added (from pre-release)
+- ✅ **Type-safe updates** for nullable and non-nullable injected states
+- ✅ **Boolean helpers** (`toggle()`) for nullable & non-nullable `Injected<bool>`
+- ✅ **Multi-injected builders** (`builder`, `builderState`, `builderData`, `builderDataIndexed`)
+- ✅ **Tag-based rebuilds** for selective widget notifications
+- ✅ **Safe refresh** (`safeRefresh()`) ignoring disposed exceptions
+- ✅ **Hot reload mixin** (`RebuildOnHotReloadMixin`) for Flutter Web
+- ✅ **Injection helpers** (`InjectExtension`, `MyNull`) for concise creation
+- ✅ **API documentation** for public members
+- ✅ **Example app & README usage sections**
+- ✅ **Initial test suite** covering core behaviors
+
+### Changed
+- Dependency: `states_rebuilder` now pinned to stable `^6.4.0`
+- README updated to reflect stable release (removed pre-release wording)
+
+### Fixed
+- Documentation inconsistencies between example and main README
+
+### Breaking Changes
+None – first stable release.
+
+---
+
 ## 1.0.0-dev1 - 2025-11-20
 
 **First pre-release!**
 
-*Note: This is a pre-release version because it depends on `states_rebuilder: ^7.0.0-dev1`.*
+*Note: This was a pre-release version depending on `states_rebuilder: ^7.0.0-dev1`.*
 
 ### Features
 - ✅ **Type-safe updates**: Safer `update<T?>` and `update<T>` methods with explicit generic enforcement

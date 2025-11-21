@@ -1,6 +1,6 @@
 # states_rebuilder_extended Example
 
-This example demonstrates the key features of the `states_rebuilder_extended` package.
+This example demonstrates key features of the `states_rebuilder_extended` package (version **1.0.0**, built on `states_rebuilder: ^6.4.0`).
 
 ## Running the Example
 
@@ -80,7 +80,9 @@ counters.builderDataIndexed(
 ✅ Boolean toggle helpers  
 ✅ Multi-state management  
 ✅ Indexed builders for collections  
+✅ Tag-based selective rebuild support (see package README)  
+✅ Safe refresh & hot reload mixin (see package README)  
 
 ## Learn More
 
-For more detailed documentation and additional features, see the main [README](../README.md).
+For full API details, tag-based rebuilds, safe refresh, nullable helpers and hot reload mixin usage, see the main [README](../README.md) and the [CHANGELOG](../CHANGELOG.md).
