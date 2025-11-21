@@ -24,7 +24,6 @@ Add this to your package's `pubspec.yaml` file:
 ```yaml
 dependencies:
   states_rebuilder_extended: ^1.0.0
-  states_rebuilder: ^6.4.0
 ```
 
 Then run:
