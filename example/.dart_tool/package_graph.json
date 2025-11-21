@@ -151,12 +151,13 @@
     },
     {
       "name": "states_rebuilder",
-      "version": "7.0.0-dev1",
+      "version": "6.4.0",
       "dependencies": [
         "collection",
         "flutter",
         "flutter_localizations",
-        "meta"
+        "meta",
+        "navigation_builder"
       ]
     },
     {
@@ -231,6 +232,13 @@
       "dependencies": [
         "source_span",
         "string_scanner"
+      ]
+    },
+    {
+      "name": "navigation_builder",
+      "version": "0.0.4",
+      "dependencies": [
+        "flutter"
       ]
     },
     {

@@ -1,6 +1,6 @@
 name: states_rebuilder_extended
 description: "Extensions and helpers enhancing states_rebuilder (Injected) API: update/toggle/multi-builder utilities + MyNull injector."
-version: 1.0.0-dev1
+version: 1.0.0
 homepage: https://github.com/SoundSliced/states_rebuilder_extended
 repository: https://github.com/SoundSliced/states_rebuilder_extended
 issue_tracker: https://github.com/SoundSliced/states_rebuilder_extended/issues
@@ -12,7 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  states_rebuilder: ^7.0.0-dev1
+  states_rebuilder: ^6.4.0
 
 
 dev_dependencies:

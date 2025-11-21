@@ -28,3 +28,4 @@ example/pubspec.lock
 # Doc output (if ever generated locally)
 doc/api/
 *.sh
+*.sh
