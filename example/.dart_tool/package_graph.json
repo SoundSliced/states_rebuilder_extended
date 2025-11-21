@@ -42,7 +42,7 @@
     },
     {
       "name": "states_rebuilder_extended",
-      "version": "1.0.0-dev1",
+      "version": "1.0.0",
       "dependencies": [
         "flutter",
         "states_rebuilder"
