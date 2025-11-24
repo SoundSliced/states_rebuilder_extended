@@ -11,7 +11,8 @@
       ],
       "devDependencies": [
         "flutter_lints",
-        "flutter_test"
+        "flutter_test",
+        "states_rebuilder"
       ]
     },
     {
