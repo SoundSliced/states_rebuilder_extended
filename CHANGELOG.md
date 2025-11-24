@@ -1,3 +1,7 @@
+## 1.0.1 - 2025-11-24
+
+- updated dependencies
+
 ## 1.0.0 - 2025-11-21
 
 **Stable release**

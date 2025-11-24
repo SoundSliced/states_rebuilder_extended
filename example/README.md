@@ -1,6 +1,6 @@
 # states_rebuilder_extended Example
 
-This example demonstrates key features of the `states_rebuilder_extended` package (version **1.0.0**, built on `states_rebuilder: ^6.4.0`).
+This example demonstrates key features of the `states_rebuilder_extended` package (version **1.0.1**, built on `states_rebuilder: ^7.0.0-dev1`).
 
 ## Running the Example
 

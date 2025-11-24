@@ -17,5 +17,5 @@
 // import 'package:states_rebuilder_extended/states_rebuilder_extended.dart';
 // ```
 // Barrel export for package API
-
+export 'package:states_rebuilder/states_rebuilder.dart';
 export 'src/states_rebuilder_extended.dart';

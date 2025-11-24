@@ -3,7 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/states_rebuilder_extended.svg)](https://pub.dev/packages/states_rebuilder_extended)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Current stable version: **1.0.0** (uses `states_rebuilder: ^6.4.0`)
+> Current stable version: **1.0.1** (uses `states_rebuilder: ^7.0.0-dev1`)
 
 A collection of ergonomic extensions and helpers built on top of the [`states_rebuilder`](https://pub.dev/packages/states_rebuilder) package, providing type-safe state management utilities and enhanced developer experience.
 
@@ -23,7 +23,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  states_rebuilder_extended: ^1.0.0
+  states_rebuilder_extended: ^1.0.1
 ```
 
 Then run:

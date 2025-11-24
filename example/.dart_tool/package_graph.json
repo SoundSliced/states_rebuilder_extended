@@ -5,14 +5,25 @@
   "packages": [
     {
       "name": "states_rebuilder_extended_example",
-      "version": "1.0.0+1",
+      "version": "1.0.1",
       "dependencies": [
         "flutter",
         "states_rebuilder_extended"
       ],
       "devDependencies": [
         "flutter_lints",
-        "flutter_test"
+        "flutter_test",
+        "states_rebuilder"
+      ]
+    },
+    {
+      "name": "states_rebuilder",
+      "version": "7.0.0-dev1",
+      "dependencies": [
+        "collection",
+        "flutter",
+        "flutter_localizations",
+        "meta"
       ]
     },
     {
@@ -42,10 +53,9 @@
     },
     {
       "name": "states_rebuilder_extended",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "dependencies": [
-        "flutter",
-        "states_rebuilder"
+        "flutter"
       ]
     },
     {
@@ -61,6 +71,25 @@
       ]
     },
     {
+      "name": "meta",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
+      "name": "flutter_localizations",
+      "version": "0.0.0",
+      "dependencies": [
+        "flutter",
+        "intl",
+        "path"
+      ]
+    },
+    {
       "name": "lints",
       "version": "6.0.0",
       "dependencies": []
@@ -71,16 +100,6 @@
       "dependencies": [
         "async"
       ]
-    },
-    {
-      "name": "meta",
-      "version": "1.17.0",
-      "dependencies": []
-    },
-    {
-      "name": "collection",
-      "version": "1.19.1",
-      "dependencies": []
     },
     {
       "name": "leak_tracker_flutter_testing",
@@ -150,17 +169,6 @@
       ]
     },
     {
-      "name": "states_rebuilder",
-      "version": "6.4.0",
-      "dependencies": [
-        "collection",
-        "flutter",
-        "flutter_localizations",
-        "meta",
-        "navigation_builder"
-      ]
-    },
-    {
       "name": "sky_engine",
       "version": "0.0.0",
       "dependencies": []
@@ -176,6 +184,15 @@
       "name": "characters",
       "version": "1.4.0",
       "dependencies": []
+    },
+    {
+      "name": "intl",
+      "version": "0.20.2",
+      "dependencies": [
+        "clock",
+        "meta",
+        "path"
+      ]
     },
     {
       "name": "async",
@@ -235,34 +252,9 @@
       ]
     },
     {
-      "name": "navigation_builder",
-      "version": "0.0.4",
-      "dependencies": [
-        "flutter"
-      ]
-    },
-    {
-      "name": "flutter_localizations",
-      "version": "0.0.0",
-      "dependencies": [
-        "flutter",
-        "intl",
-        "path"
-      ]
-    },
-    {
       "name": "vm_service",
       "version": "15.0.2",
       "dependencies": []
-    },
-    {
-      "name": "intl",
-      "version": "0.20.2",
-      "dependencies": [
-        "clock",
-        "meta",
-        "path"
-      ]
     }
   ],
   "configVersion": 1
