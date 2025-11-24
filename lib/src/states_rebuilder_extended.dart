@@ -1,7 +1,7 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
 
-import '../states_rebuilder_extended.dart'; 
+import '../states_rebuilder_extended.dart';
 
 /// Central tag registry to support tag-based selective rebuilds across
 /// nullable and non-nullable Injected extensions.
