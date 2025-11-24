@@ -12,10 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  states_rebuilder: ^7.0.0-dev1
-  
-dependency_overrides:
-  states_rebuilder: ^7.0.0-dev1
+  states_rebuilder: ^6.4.0
 
 dev_dependencies:
   flutter_test:

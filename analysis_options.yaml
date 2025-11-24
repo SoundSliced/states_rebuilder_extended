@@ -4,8 +4,7 @@ analyzer:
 include: package:flutter_lints/flutter.yaml
 
 linter:
-  rules:
-    - prefer_relative_imports
+  rules: 
     - avoid_print
     - unnecessary_parenthesis
     - prefer_const_constructors

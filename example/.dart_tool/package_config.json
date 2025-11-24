@@ -110,6 +110,12 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "navigation_builder",
+      "rootUri": "file:///Users/christophechanteur/.pub-cache/hosted/pub.dev/navigation_builder-0.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/christophechanteur/.pub-cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
@@ -135,7 +141,7 @@
     },
     {
       "name": "states_rebuilder",
-      "rootUri": "file:///Users/christophechanteur/.pub-cache/hosted/pub.dev/states_rebuilder-7.0.0-dev1",
+      "rootUri": "file:///Users/christophechanteur/.pub-cache/hosted/pub.dev/states_rebuilder-6.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
