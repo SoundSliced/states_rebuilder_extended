@@ -1,3 +1,7 @@
+## 1.0.2 - 2025-11-24
+
+- updated `README.md` dependencies
+
 ## 1.0.1 - 2025-11-24
 
 - exported `states_rebuilder` dependencies
