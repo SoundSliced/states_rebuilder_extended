@@ -7,12 +7,12 @@
       "name": "states_rebuilder_extended",
       "version": "1.0.1",
       "dependencies": [
-        "flutter"
+        "flutter",
+        "states_rebuilder"
       ],
       "devDependencies": [
         "flutter_lints",
-        "flutter_test",
-        "states_rebuilder"
+        "flutter_test"
       ]
     },
     {

@@ -166,7 +166,7 @@ packages:
     source: hosted
     version: "1.12.1"
   states_rebuilder:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: states_rebuilder
       sha256: b3e342cdbe0ef508b7b93ea53b0d005ab1b1d18eb91f9e91134dd6b3f1ddeeec
