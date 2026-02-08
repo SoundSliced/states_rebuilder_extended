@@ -23,7 +23,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  states_rebuilder_extended: ^1.0.3
+  states_rebuilder_extended: ^2.0.0
 ```
 
 Then run:

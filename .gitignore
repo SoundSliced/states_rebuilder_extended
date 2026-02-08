@@ -43,3 +43,7 @@ app.*.map.json
 # Example app specific (handled by .pubignore for publishing only)
 example/.flutter-plugins
 example/.flutter-plugins-dependencies
+build/
+.dart_tool/
+example/build/
+.DS_Store

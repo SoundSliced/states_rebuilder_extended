@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:states_rebuilder_extended/states_rebuilder_extended.dart';
 
 void main() {
